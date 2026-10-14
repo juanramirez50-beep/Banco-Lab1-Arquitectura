@@ -47,3 +47,23 @@ El desarrollo se llevó a cabo siguiendo estas fases principales:
 
 **Proyecto Anexo**
 *   **Repositorio GitHub:** [Ingresa aquí tu enlace, ej: https://github.com/tu-usuario/lab1-banco-2025]
+
+#LAB2V2026 (ACTUALIZACION)
+
+##  Tecnologías y Herramientas
+* **Backend:** Java 17, Spring Boot, Maven
+* **Base de datos:** H2 (En memoria para despliegue ágil)
+* **CI/CD:** GitHub Actions
+* **Calidad de Código:** SonarCloud / JaCoCo
+* **Contenedores:** Docker, Docker Hub
+* **Despliegue (Nube):** Render
+
+##  Arquitectura del Pipeline
+1. **Push a GitHub:** Al hacer push a la rama `main`, se activa GitHub Actions.
+2. **Test & SonarCloud:** Se ejecutan las pruebas unitarias y se envía el reporte de cobertura a SonarCloud.
+3. **Docker Hub:** Si el código es válido, se empaqueta en una imagen de Docker y se sube automáticamente a Docker Hub.
+4. **Render:** La plataforma Render descarga la imagen de Docker Hub y despliega la aplicación en un servidor público.
+
+##  Enlaces del Proyecto
+* **URL de la API en la nube (Render):** https://banco-lab2v2026.onrender.com
+* **Docker Hub:** juanramirez50/banco-lab1
