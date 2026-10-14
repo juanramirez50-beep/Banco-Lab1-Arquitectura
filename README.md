@@ -1,3 +1,4 @@
+[![CI/CD Pipeline](https://github.com/juanramirez50-beep/Banco-Lab1-Arquitectura/actions/workflows/build.yml/badge.svg)](https://github.com/juanramirez50-beep/Banco-Lab1-Arquitectura/actions/workflows/build.yml)
 # Informe de Laboratorio 1: Introducción a SpringBoot y React
 
 ## 1. Introducción y Objetivos
