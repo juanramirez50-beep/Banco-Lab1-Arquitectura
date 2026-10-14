@@ -42,7 +42,7 @@ jobs:
           image: juanramirez50/banco-lab1
           tags: latest
           registry: docker.io
-          dockerfile: Dockerfile
+          dockerfile: lab1v2026/lab1v2026/Dockerfile
           directory: lab1v2026/lab1v2026
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
